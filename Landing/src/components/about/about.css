@@ -14,6 +14,8 @@
 .textAbout{
     flex-direction: column;
     width: 50%;
+    color: #484848;
+    text-align: start;
 }
 .txt{
     padding: 0 50px;

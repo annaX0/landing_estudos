@@ -33,6 +33,14 @@ div>img{
     border-bottom: 1px solid rgb(29, 29, 29);
     height: 30px;
 }
+.input:hover{
+    border-bottom: 2px solid rgb(78, 116, 223);
+}
+.input::placeholder{
+    font-size: 15px;
+    font-weight: 600;
+    color: #c2c2c2;
+}
 .input:nth-last-child(2){
     height: 60px;
     margin-bottom: 40px;
@@ -45,4 +53,8 @@ div>img{
     padding: 5px;
     width: 300px;
     align-self: center;
+}
+.envia:hover{
+    background: #868686;
+    transition: 1000ms;
 }

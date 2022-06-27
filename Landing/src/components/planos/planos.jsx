@@ -3,7 +3,7 @@ import '../planos/planos.css'
 
 function Planos(){
     return(
-        <div className='planos'>
+        <div className='planos' id='plano'>
             <div className="plano1">
                 <h3>Plano Básico</h3>
                 <h4>R$ 29,90</h4>
