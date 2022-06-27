@@ -1,0 +1,25 @@
+.about{
+    background-color: #EFFBFF;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100% );
+}
+.about2{
+    background-color: #A8A8A8;
+    padding-bottom: 6px;
+    clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100% );
+    z-index: -1;
+}
+.textAbout{
+    flex-direction: column;
+    width: 50%;
+}
+.txt{
+    padding: 0 50px;
+    font-weight: 300;
+}
+.titleAbout{
+    font-weight: bold;
+
+}

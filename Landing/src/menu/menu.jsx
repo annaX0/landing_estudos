@@ -6,10 +6,10 @@ function Menu() {
     <div className="container">
       <img className="back" src={bg}></img>
       <div className="menu">
-        <a>Home</a>
-        <a>Sobre</a>
-        <a>Planos</a>
-        <a>Contato</a>
+        <a href="#">Home</a>
+        <a href="#">Sobre</a>
+        <a href="#">Planos</a>
+        <a href="#">Contato</a>
       </div>
       <div className="txtBanner">
         <h2>Landing de estudos</h2>
