@@ -1,0 +1,48 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0%;
+    margin: 0%;
+    --txt: #484848;
+}
+
+.menu{
+    margin-top: 20px;
+    position: absolute;
+}
+.container{
+    display: flex;
+    justify-content: end;
+}
+a{
+    text-decoration: none;
+    color: var(--txt);
+    font-weight: bold;
+    padding: 0 40px;
+    font-size: 22px;
+}
+.back{
+    width: 100vw;
+    height: 100vh;
+}
+.txtBanner{
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    font-size: 40px;
+    flex-wrap: wrap;
+    width: 30%;
+    color: var(--txt);
+}
+.bntSaiba{
+    background-color: #484848;
+    border: none;
+    color: white;
+    width: 300px;
+    height: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.bntSaiba:hover{
+    background-color: #747474;
+    transition: 1200ms;
+}
