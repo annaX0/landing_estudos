@@ -2,7 +2,8 @@ import iconAbout from '../../assets/about.svg'
 import '../about/about.css'
 import '../../style/global.css'
 function About(){
-    return(<div className="about2">
+    return(
+    <div className="about2">
         <div className='about'>
             
             <div className='txt'>
