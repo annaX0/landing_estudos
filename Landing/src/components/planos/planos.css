@@ -1,0 +1,63 @@
+.planos{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.plano1, .plano2, .plano3{
+    background-color: #FAFAFA;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 10px;
+    width: 20%;
+    text-align: center;
+    padding:  50px 10px 100px 30px;
+    margin: 50px;
+
+}
+.plano1{
+    border-left: 10px solid #CEEBFC;   
+}
+.plano2{
+    border-left: 10px solid #FFD0F5;
+}
+.plano3{
+    border-left: 10px solid #D1D0FF;
+}
+h3{
+    font-weight: 500;
+    font-size: 25px;
+}
+.plano1>h4{
+    font-weight: 700;
+    font-size: 30px;
+    color: #3BAEF3;
+}.plano2>h4{
+    font-weight: 700;
+    font-size: 30px;
+    color: #FE78E0;
+} .plano3>h4{
+    font-weight: 700;
+    font-size: 30px;
+    color: #8684FF;
+}
+li{
+    text-align: start;
+    font-size: 15px;
+    font-weight: 300;
+}
+.plano1>button, .plano2>button, .plano3>button{
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 2% 20%;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 15px;
+}
+button:hover{
+    background-color: #8a8a8a;
+    color: white;
+    animation: linear;
+    transition: 1000ms;
+    border: none;
+}
